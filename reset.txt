@@ -1,0 +1,58 @@
+#ssh
+#change where screenshots are saved
+defaults write com.apple.screencapture location /Users/kreading/Desktop/Screenshots
+
+console.log JSON.stringify(object)
+
+#### GIT ####
+lstatus 	//see status of all git repos
+lpull 		//update all repos
+
+#### LEVER SET UP #### 
+ldev up
+lhire
+lhiremobile
+
+npmrefresh hire2	//cd ~/lever/hire2 && rm -rf node_modules && npm install
+
+#### GIT CLEANUP ####
+git checkout release/branch
+git branch --merged
+git branch -d feature/branch
+
+# delete branches that have been deleted remotely
+git remote prune origin
+
+#local linking
+npm link ../collections (to local link)
+rm node_modules/lever-collections (to undo)
+
+#in npm package
+git checkout master
+git pull
+npm view <package name> version
+npm version <major|minor|patch> #edits package.json, creates git commit
+
+git push
+lpublish
+
+#### DEPLOY ####
+mo locks
+
+mobot help ecs
+mo lock <env> [duration] [reason]
+mobot ecs deploy <service>:<version> <environment>
+#build-v1.0.0-rc.3078 --builds from branches
+#prod-v1.0.0-rc.3078 --build on master
+
+ltestremote -e prod -s hire2
+lnpmdiffremote hire2:prod-v1.259.0 hire2:prod-v1.260.0
+
+### NSP ###
+
+npm install nsp -g
+nsp check
+
+### Affiance ###
+# how to uninstall
+# --no-verify , -n
