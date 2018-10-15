@@ -1,5 +1,5 @@
-.
-..
+ls .atom/packages > atom-packages.txt
+
 README.md
 Stylus
 activate-power-mode
