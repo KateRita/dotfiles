@@ -5,14 +5,33 @@ configuration files for Mac
 
 Most of the files just need to be copied to the home directory.
 
-`atom-packages.txt` is a list of custom installed package names for atom.
+## Atom
+List installed packages:
+```
+$ apm list --installed --bare > atom-packages.txt
+```
+Install your packages from file:
+```
+$ apm install --packages-file atom-packages.txt
+```
+
+## Spectacle
+
+```
+cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
+```
 
 # additional applications
-- total spaces 2
-- spectacle
-- Karibeaner
+- total spaces 2 (https://totalspaces.binaryage.com/): multiple desktops
+- spectacle (https://www.spectacleapp.com/) : resize/move windows around
+- Karibeaner : custom keyboard shortcuts
 - iTerm2
-- slack
+- Slack
 - github Desktop
 - Chrome
-- 
+- Hangouts
+- Beyond Compare
+
+
+# TODO
+automate setup by copying files from this repo around the computer
