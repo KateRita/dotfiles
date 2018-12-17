@@ -1,3 +1,9 @@
+## Account flags
+admin2:
+MODEL.setDiffDeep('_page.account.flags.archiveByJobPosting', {enabled: true});
+
+LEVER_HIRE_SCHEMA=disabled
+
 #ssh
 #change where screenshots are saved
 defaults write com.apple.screencapture location /Users/kreading/Desktop/Screenshots
@@ -22,6 +28,11 @@ git branch -d feature/branch
 
 # delete branches that have been deleted remotely
 git remote prune origin
+
+#### NPM ######
+#github linking
+npm install --save lever/collections#feature/set-interview-plan
+#installs node module & updates package.json
 
 #local linking
 npm link ../collections (to local link)
@@ -55,4 +66,5 @@ nsp check
 
 ### Affiance ###
 # how to uninstall
+rm -rf node_modules/affiance
 # --no-verify , -n
