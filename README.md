@@ -31,6 +31,9 @@ cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
 - Chrome
 - Hangouts
 - Beyond Compare
+- pyCharm
+- atom
+- gifox
 
 
 # TODO
