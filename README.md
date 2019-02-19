@@ -21,6 +21,13 @@ $ apm install --packages-file atom-packages.txt
 cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
 ```
 
+# additional setup
+
+## Configure screenshots
+```
+defaults write com.apple.screencapture location ~/Desktop/Screenshots/
+```
+
 # additional applications
 - total spaces 2 (https://totalspaces.binaryage.com/): multiple desktops
 - spectacle (https://www.spectacleapp.com/) : resize/move windows around
@@ -37,4 +44,5 @@ cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
 
 
 # TODO
-automate setup by copying files from this repo around the computer
+- automate setup by copying files from this repo around the computer
+- include 'additional setup' steps in auto setup script
