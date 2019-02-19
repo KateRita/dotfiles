@@ -7,20 +7,9 @@ ulimit -u 2048
 alias ls='ls -aG'
 alias remindme='cat ~/reset.txt'
 
-#lever aliases
-alias lhiremobile='cd ~/lever/hire2 && LEVER_CONTAINER=mobile coffee server.coffee'
-alias lhire='cd ~/lever/hire2 && LEVER_APP=candidates coffee server.coffee'
-alias lhiresettings='cd ~/lever/hire2 && LEVER_APP=settings coffee server.coffee'
-
-
 #nvm
 export NVM_DIR="/Users/kreading/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-#lever
-source ~/lever/bash/lever-profile
-export LEVER_LOG=true
-export LEVER_NGROK_ID="11"
 
 #git
 source ~/.git-completion.bash
@@ -38,9 +27,6 @@ function npmrefresh {
 		cd ~/lever/$1 && rm -rf node_modules/ && npm install
   fi
 }
-
-# Configuration for Lever's Slack
-export LEVER_SLACK_USERNAME="kate"
 
 #configuration for cwlogs
 export AWS_SDK_LOAD_CONFIG=true
