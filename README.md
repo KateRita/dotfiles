@@ -41,6 +41,7 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 - pyCharm
 - atom
 - gifox
+- Better Touch Tool (https://github.com/danieliversen/asana-touchbar-helper/blob/master/README.md)
 
 
 # TODO
