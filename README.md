@@ -36,7 +36,9 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 - Slack
 - github Desktop
 - Chrome
-- Hangouts
+-- Tab Modifier, Clockwise, Zoom
+- Asana Desktop
+- Rambox
 - Beyond Compare
 - pyCharm
 - atom
