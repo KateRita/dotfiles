@@ -25,6 +25,7 @@ cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
 
 ## Configure screenshots
 ```
+mkdir ~/Desktop/Screenshots
 defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 ```
 
