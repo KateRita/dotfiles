@@ -30,22 +30,31 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 ```
 
 # additional applications
+## productivity
 - total spaces 2 (https://totalspaces.binaryage.com/): multiple desktops
 - spectacle (https://www.spectacleapp.com/) : resize/move windows around
-- Karibeaner : custom keyboard shortcuts
-- iTerm2
-- Slack
-- github Desktop
 - Chrome
 -- Tab Modifier, Clockwise, Zoom
-- Asana Desktop
-- Rambox
+- Slack
+- Rambox - email & other messaging
+- BarTender - manages joining meetings
+- VimCal - scheduling internal/external, calendly
+- superhuman - email
+- workflowy - todos
+- reflect.app - notetaking
+- GoLinks - 
+
+## coding
+- iTerm2
+- github Desktop
 - Beyond Compare
 - pyCharm
 - atom
+  
+ ## archive
+- Karibeaner : custom keyboard shortcuts
 - gifox
 - Better Touch Tool (https://github.com/danieliversen/asana-touchbar-helper/blob/master/README.md)
-
 
 # TODO
 - automate setup by copying files from this repo around the computer
