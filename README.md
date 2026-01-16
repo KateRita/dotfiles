@@ -3,22 +3,16 @@ configuration files for Mac
 
 # usage
 
-Most of the files just need to be copied to the home directory.
-
-## Atom
-List installed packages:
-```
-$ apm list --installed --bare > atom-packages.txt
-```
-Install your packages from file:
-```
-$ apm install --packages-file atom-packages.txt
-```
-
-## Spectacle
+## Basics
+Homebrew: https://brew.sh/
 
 ```
-cp Spectacle/Shorcuts.json Library/Application\ Support/Spectacle/Shortcuts.json
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Git: https://git-scm.com/install/mac
+
+```
+brew install git
 ```
 
 # additional setup
@@ -31,8 +25,7 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 
 # additional applications
 ## productivity
-- total spaces 2 (https://totalspaces.binaryage.com/): multiple desktops
-- spectacle (https://www.spectacleapp.com/) : resize/move windows around
+
 - Chrome
 -- Tab Modifier, Clockwise, Zoom
 - Slack
@@ -55,6 +48,18 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 - Karibeaner : custom keyboard shortcuts
 - gifox
 - Better Touch Tool (https://github.com/danieliversen/asana-touchbar-helper/blob/master/README.md)
+- total spaces 2 (https://totalspaces.binaryage.com/): multiple desktops
+- spectacle (https://www.spectacleapp.com/) : resize/move windows around
+- Atom:  
+
+List installed packages:
+```
+$ apm list --installed --bare > atom-packages.txt
+```
+Install your packages from file:
+```
+$ apm install --packages-file atom-packages.txt
+```
 
 # TODO
 - automate setup by copying files from this repo around the computer
