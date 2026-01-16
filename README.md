@@ -60,7 +60,3 @@ Install your packages from file:
 ```
 $ apm install --packages-file atom-packages.txt
 ```
-
-# TODO
-- automate setup by copying files from this repo around the computer
-- include 'additional setup' steps in auto setup script
